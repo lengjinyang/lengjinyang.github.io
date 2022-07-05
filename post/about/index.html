@@ -1,0 +1,1823 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="Gridea静态个人博客">
+<meta name="description" content="卧槽 撅了">
+<meta name="theme-color" content="#343a40">
+<title>关于 | 萌萌哒の🥰の小窝</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1657003315234">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/media/css/gemini.css">
+
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/androidstudio.css"
+  rel="stylesheet">
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+  <meta name="description" content="关于" />
+  <meta name="keywords" content="" />
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="gemini">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>萌萌哒の🥰の小窝</span>
+            </a>  
+          
+        </div>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags/" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about/" target="_self">
+                  <i class="fa fa-user"></i> 关于
+                </a>
+              
+            </li>
+          
+          
+            
+              <li class="nav-item ">
+                <a href="/friends/" target="_self">
+                  
+                    <i class="fa fa-address-book"></i> 友情链接
+                  
+                </a>
+              </li>
+            
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout gemini ">
+      <div class="section-layout-wrapper">
+        
+
+<div class="sidebar">
+  
+    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+      
+        <div class="post-list-sidebar">
+          <div class="sidebar-title">
+            <span id="tocSideBar" class="sidebar-title-item sidebar-title-active">文章目录</span>
+            <span id="metaSideBar" class="sidebar-title-item">站点概览</span>
+          </div>
+        </div>
+      
+      <div class="sidebar-body gemini" id="sidebar_body">
+        
+          
+            <div class="post-side-meta" id="post_side_meta">
+              
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name"></p>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">3</span>
+        <span class="site-item-stat-name">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">3</span>
+        <span class="site-item-stat-name">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">3</span>
+        <span class="site-item-stat-name">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item" style="border-top: 1px dotted #ccc; margin-top: 10px;">
+      </div>
+    
+  
+  
+
+
+</div>
+            </div>
+            <div class="post-toc sidebar-body-active" id="post_toc" style="opacity: 1;">
+              <div class="toc-box right-motion">
+  <div class="toc-wrapper auto-number auto"
+    id="toc_wrapper">
+    <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99">🏠 关于本站</a></li>
+<li><a href="#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81">👨‍💻 博主是谁</a></li>
+<li><a href="#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD">⛹ 兴趣爱好</a></li>
+<li><a href="#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80">📬 联系我呀</a></li>
+</ul>
+</li>
+</ul>
+
+  </div>
+</div>
+
+<script>
+
+  let lastTop = 0, lList = [], hList = [], postBody, lastIndex = -1;
+  let active = 'active-show', activeClass = 'active-current';
+  let tocWrapper = document.querySelector('#toc_wrapper');
+  let tocContent = tocWrapper.children[0];
+  let autoNumber = tocWrapper && tocWrapper.classList.contains('auto-number');
+
+  function addTocNumber(elem, deep) {
+    if (!elem) {
+      return;
+    }
+    let prop = elem.__proto__;
+
+    if (prop === HTMLUListElement.prototype) {
+      for (let i = 0; i < elem.children.length; i++) {
+        addTocNumber(elem.children[i], deep + (i + 1) + '.');
+      }
+    } else if (prop === HTMLLIElement.prototype) {
+      // 保存li元素
+      if (elem.children[0].__proto__ === HTMLAnchorElement.prototype) {
+        lList.push(elem);
+      }
+      for (let i = 0; i < elem.children.length; i++) {
+        let cur = elem.children[i];
+        if (cur.__proto__ === HTMLAnchorElement.prototype) {
+          if (autoNumber) {
+            cur.text = deep + ' ' + cur.text;
+          }
+        } else if (cur.__proto__ === HTMLUListElement.prototype) {
+          addTocNumber(cur, deep);
+        }
+      }
+    }
+  }
+
+  function removeParentActiveClass() {
+    let parents = tocContent.querySelectorAll('.' + active)
+    parents.forEach(function (elem) {
+      elem.classList.remove(active);
+    });
+  }
+
+  function addActiveClass(index) {
+    if (index >= 0 && index < hList.length) {
+      lList[index].classList.add(activeClass);
+    }
+  }
+
+  function removeActiveClass(index) {
+    if (index >= 0 && index < hList.length) {
+      lList[index].classList.remove(activeClass);
+    }
+  }
+
+  function addActiveLiElemment(elem, parent) {
+    if (!elem || elem === parent) {
+      return;
+    } else {
+      if (elem.__proto__ === HTMLLIElement.prototype) {
+        elem.classList.add(active);
+      }
+      addActiveLiElemment(elem.parentElement, parent);
+    }
+  }
+
+  function showToc() {
+    if (tocWrapper) {
+      postBody = document.querySelector('#post_body');
+      for (let i = 0; i < postBody.children.length; i++) {
+        if (postBody.children[i].__proto__ === HTMLHeadingElement.prototype) {
+          hList.push(postBody.children[i]);
+        }
+      }
+      if (tocWrapper.classList.contains('compress')) {
+        tocContent.classList.add('closed');
+      } else if (tocWrapper.classList.contains('no_compress')) {
+        tocContent.classList.add('expanded');
+      } else {
+        if (hList.length > 10) {
+          active = 'active-hidden'
+          tocContent.classList.add('closed');
+        } else {
+          tocContent.classList.add('expanded');
+        }
+      }
+    }
+  }
+
+  (function () {
+    // 处理不是从#一级标题开始目录
+    if (tocContent.children.length === 1 && tocContent.children[0].__proto__ === HTMLLIElement.prototype) {
+      let con = tocContent.children[0].children[0];
+      tocContent.innerHTML = con.innerHTML;
+    }
+    let markdownItTOC = document.querySelector('.markdownIt-TOC');
+    let innerHeight = window.innerHeight;
+    markdownItTOC.style = `max-height: ${innerHeight - 80 > 0 ? innerHeight - 80 : innerHeight}px`
+    addTocNumber(tocContent, '');
+  })();
+
+  document.addEventListener('scroll', function (e) {
+    if (lList.length <= 0) {
+      return;
+    }
+    let scrollTop = document.scrollingElement.scrollTop + 10;
+    let dir;
+
+    if (lastTop - scrollTop > 0) {
+      dir = 'up';
+    } else {
+      dir = 'down';
+    }
+
+    lastTop = scrollTop;
+    if (scrollTop <= 0) {
+      if (lastIndex >= 0 && lastIndex < hList.length) {
+        lList[lastIndex].classList.remove(activeClass);
+      }
+      return;
+    }
+
+    let current = 0, hasFind = false;
+    for (let i = 0; i < hList.length; i++) {
+      if (hList[i].offsetTop > scrollTop) {
+        current = i;
+        hasFind = true;
+        break;
+      }
+    }
+    if (!hasFind && scrollTop > lList[lList.length - 1].offsetTop) {
+      current = hList.length - 1;
+    } else {
+      current--;
+    }
+    if (dir === 'down') {
+      if (current > lastIndex) {
+        addActiveClass(current);
+        removeActiveClass(lastIndex)
+        lastIndex = current;
+        removeParentActiveClass();
+        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
+      }
+    } else {
+      if (current < lastIndex) {
+        addActiveClass(current);
+        removeActiveClass(lastIndex);
+        lastIndex = current;
+        removeParentActiveClass();
+        lList[current] && addActiveLiElemment(lList[current].parentElement, tocContent);
+      }
+    }
+  });
+
+
+  window.addEventListener('load', function () {
+    showToc();
+    document.querySelector('#sidebar').style = 'display: block;';
+    tocWrapper.classList.add('toc-active');
+    setTimeout(function () {
+      if ("createEvent" in document) {
+        let evt = document.createEvent("HTMLEvents");
+        evt.initEvent("scroll", false, true);
+        document.dispatchEvent(evt);
+      }
+      else {
+        document.fireEvent("scroll");
+      }
+    }, 500)
+  })
+
+</script>
+            </div>
+          
+        
+      </div>
+    </div>
+  
+</div>
+<script>
+  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
+  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
+  const SLIDE_UP_IN = 'slide-up-in';
+
+  let sidebar = document.querySelector('#sidebar'),
+  tocSideBar = document.querySelector('#tocSideBar'),
+  metaSideBar = document.querySelector('#metaSideBar'),
+  postToc = document.querySelector('#post_toc'),
+  postSiteMeta = document.querySelector('#post_side_meta'),
+  sidebarTitle = document.querySelector('.sidebar-title'),
+  sidebarBody = document.querySelector('#sidebar_body');
+
+  tocSideBar && tocSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  metaSideBar && metaSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  function toggleSidebar(e) {
+    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
+    if (currentTitle == e.srcElement) {
+      return ;
+    }
+    let current, showElement, hideElement;
+    if (e.srcElement == metaSideBar) {
+      showElement = postSiteMeta;
+      hideElement = postToc;
+    } else if (e.srcElement == tocSideBar){
+      showElement = postToc;
+      hideElement = postSiteMeta;
+    }
+    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
+    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
+
+    window.Velocity(hideElement, 'stop');
+    window.Velocity(hideElement, 'transition.slideUpOut', {
+      display: 'none',
+      duration: 200,
+      complete: function () {
+        window.Velocity(showElement, 'transition.slideDownIn', {
+          duration: 200
+        });
+      }
+    })
+    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
+    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+  }
+
+  postToc && postToc.addEventListener('transitionend', function() {
+    this.classList.remove(SLIDE_UP_IN);
+  });
+
+  if (sidebarBody) {
+    if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
+      let hasFix = false;
+      let scrollEl = document.querySelector('.main-continer');
+      let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
+      window.addEventListener('scroll', function(e) {
+        if (document.scrollingElement.scrollTop >= limitTop) {
+          if (!hasFix) {
+            sidebar.classList.add('sidebar-fixed');
+            hasFix = true;
+          }
+        } else {
+          if (hasFix) {
+            sidebar.classList.remove('sidebar-fixed');
+            hasFix = false;
+          }
+        }
+      });
+    }
+  }
+  
+</script>
+        <div class="section-box box-shadow-wrapper">
+          <div class="section bg-color post post-page">
+            <header class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://lengjinyang.github.io/post/about/">
+      关于
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span>发布于</span>
+      <span>2019-01-25</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>1分钟</span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>31<span class="pc-show">字数</span></span>
+    </span>
+    
+  </div>
+</header>
+            <div class="post-body next-md-body" id="post_body">
+              <blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<h2 id="联系我呀">📬 联系我呀</h2>
+
+            </div>
+            <div class="post-footer">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong>本文作者：</strong>
+      
+    </li>
+    <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://lengjinyang.github.io/post/about/" title="关于">https://lengjinyang.github.io/post/about/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong>
+      本博客所有文章除特别声明外，均采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i> BY-NC-SA</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+  <div class="tags">
+    
+  </div>
+  <div class="nav">
+    <div class="nav-prev">
+      
+    </div>
+    <div class="nav-next">
+      
+    </div>
+  </div>
+</div>
+            
+  <script src="https://cdn.jsdelivr.net/npm/valine@1.4.4/dist/Valine.min.js"></script>
+<div id="vcomments" style="padding: 10px 0px 0px 0px"></div>
+
+<style>
+  .v .veditor {
+    min-height: 10rem;
+    background-image: url('https://upimage.alexhchu.com/2020/04/21/47eda59424daa.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(255, 255, 255, 0);
+    resize: none;
+  }
+
+  .v .vwrap {
+    border: 1px solid #000 !important;
+  }
+
+  .v .vbtn {
+    padding: .4rem 1.2rem !important;
+    border-color: #fff !important;
+    background-color: #49b1f5 !important;
+    color: #fff !important;
+    font-size: .7rem !important;
+  }
+
+  .v .vcards .vcard .vh .vmeta .vat {
+    padding: 0 .8rem !important;
+    border: 1px solid #00c4b6 !important;
+    border-radius: 5px !important;
+    color: #00c4b6 !important;
+  }
+</style>
+<script>
+  new Valine({
+    el: '#vcomments',
+    appId: 'qQ6aJTOWb4Si1q7avNU0jVcK-gzGzoHsz',
+    appKey: 'jWktXwi9ar58BCkkFRzub4dm',
+    avatar: '',
+    placeholder: '',
+    pageSize: '',
+    lang: 'zh-cn',
+    visitor: 'true' === 'false',
+    highlight: 'true' === 'true',
+    avatarForce: 'true' === 'false',
+  });
+</script>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </footer>
+  
+  
+  <div class="gemini back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+    <div class="bg-img">
+      <img src="\media\images\1.jpg" />
+    </div>
+  
+  
+    
+<link rel="stylesheet" href="/media/live2d/css/live2d.css" />
+<div class="box-scale">
+  <div id="landlord" style="left: 5px;bottom: px;"
+    data-key="">
+    <canvas id="live2d" width="500" height="560" class="live2d"></canvas>
+    
+
+      <div class="message" style="opacity:0"></div>
+      <div class="live_talk_input_body">
+        <div class="live_talk_input_name_body">
+          <input name="name" type="text" class="live_talk_name white_input" id="AIuserName" autocomplete="off"
+            placeholder="你的名字" />
+        </div>
+        <div class="live_talk_input_text_body">
+          <input name="talk" type="text" class="live_talk_talk white_input" id="AIuserText" autocomplete="off"
+            placeholder="要和我聊什么呀？" />
+          <button type="button" class="live_talk_send_btn" id="talk_send">发送</button>
+        </div>
+      </div>
+      <input name="live_talk" id="live_talk" value="1" type="hidden" />
+      <div class="live_ico_box">
+        <div class="live_ico_item type_info" id="showInfoBtn"></div>
+        <div class="live_ico_item type_talk" id="showTalkBtn"></div>
+        
+        <div class="live_ico_item type_youdu" id="youduButton"></div>
+        <div class="live_ico_item type_quit" id="hideButton"></div>
+        <input name="live_statu_val" id="live_statu_val" value="0" type="hidden" />
+        <audio src="" style="display:none;" id="live2d_bgm" data-bgm="0" preload="none"></audio>
+        <input id="duType" value="douqilai" type="hidden">
+        
+      </div>
+    
+  </div>
+</div>
+<div id="open_live2d">召唤看板娘</div>
+<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script>
+  var message_Path = 'https://cdn.jsdelivr.net/gh/hsxyhao/live2d.github.io@master/';
+  let landlord = document.querySelector('#landlord');
+  var apiKey = landlord.dataset.key;
+</script>
+<script type="text/javascript" src="/media/live2d/js/live2d.js"></script>
+<script>
+	var home_Path = document.location.protocol + '//' + window.document.location.hostname + ":" + window.document.location.port + '/';
+	var userAgent = window.navigator.userAgent.toLowerCase();
+	var norunAI = ["android", "iphone", "ipod", "ipad", "windows phone", "mqqbrowser", "msie", "trident/7.0"];
+	var norunFlag = false;
+
+	for (var i = 0; i < norunAI.length; i++) {
+		if (userAgent.indexOf(norunAI[i]) > -1) {
+			norunFlag = true;
+			break;
+		}
+	}
+
+	if (!window.WebGLRenderingContext) {
+		norunFlag = true;
+	}
+
+	if (!norunFlag) {
+		var hitFlag = false;
+		var AIFadeFlag = false;
+		var liveTlakTimer = null;
+		var sleepTimer_ = null;
+		var AITalkFlag = false;
+		var talkNum = 0;
+		(function () {
+			function renderTip(template, context) {
+				var tokenReg = /(\\)?\{([^\{\}\\]+)(\\)?\}/g;
+				return template.replace(tokenReg, function (word, slash1, token, slash2) {
+					if (slash1 || slash2) {
+						return word.replace('\\', '');
+					}
+					var variables = token.replace(/\s/g, '').split('.');
+					var currentObject = context;
+					var i, length, variable;
+					for (i = 0, length = variables.length; i < length; ++i) {
+						variable = variables[i];
+						currentObject = currentObject[variable];
+						if (currentObject === undefined || currentObject === null) return '';
+					}
+					return currentObject;
+				});
+			}
+
+			String.prototype.renderTip = function (context) {
+				return renderTip(this, context);
+			};
+
+			var re = /x/;
+			re.toString = function () {
+				showMessage('哈哈，你打开了控制台，是想要看看我的秘密吗？', 5000);
+				return '';
+			};
+
+			$(document).on('copy', function () {
+				showMessage('你都复制了些什么呀，转载要记得加上出处哦~~', 5000);
+			});
+
+			function initTips() {
+				$.ajax({
+					cache: true,
+					url: message_Path + 'message.json',
+					dataType: "json",
+					success: function (result) {
+						$.each(result.mouseover, function (index, tips) {
+							$(tips.selector).mouseover(function () {
+								var text = tips.text;
+								if (Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1) - 1];
+								text = text.renderTip({ text: $(this).text() });
+								showMessage(text, 3000);
+								talkValTimer();
+								clearInterval(liveTlakTimer);
+								liveTlakTimer = null;
+							});
+							$(tips.selector).mouseout(function () {
+								showHitokoto();
+								if (liveTlakTimer == null) {
+									liveTlakTimer = window.setInterval(function () {
+										showHitokoto();
+									}, 15000);
+								};
+							});
+						});
+						$.each(result.click, function (index, tips) {
+							$(tips.selector).click(function () {
+								if (hitFlag) {
+									return false
+								}
+								hitFlag = true;
+								setTimeout(function () {
+									hitFlag = false;
+								}, 8000);
+								var text = tips.text;
+								if (Array.isArray(tips.text)) text = tips.text[Math.floor(Math.random() * tips.text.length + 1) - 1];
+								text = text.renderTip({ text: $(this).text() });
+								showMessage(text, 3000);
+							});
+							clearInterval(liveTlakTimer);
+							liveTlakTimer = null;
+							if (liveTlakTimer == null) {
+								liveTlakTimer = window.setInterval(function () {
+									showHitokoto();
+								}, 15000);
+							};
+						});
+					}
+				});
+			}
+			initTips();
+
+			var text;
+			if (document.referrer !== '') {
+				var referrer = document.createElement('a');
+				referrer.href = document.referrer;
+				text = '嗨！来自 <span style="color:#0099cc;">' + referrer.hostname + '</span> 的朋友！';
+				var domain = referrer.hostname.split('.')[1];
+				if (domain == 'baidu') {
+					text = '嗨！ 来自 百度搜索 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+				} else if (domain == 'so') {
+					text = '嗨！ 来自 360搜索 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+				} else if (domain == 'google') {
+					text = '嗨！ 来自 谷歌搜索 的朋友！<br>欢迎访问<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+				}
+			} else {
+				if (window.location.href == home_Path) { //主页URL判断，需要斜杠结尾
+					var now = (new Date()).getHours();
+					if (now > 23 || now <= 5) {
+						text = '你是夜猫子呀？这么晚还不睡觉，明天起的来嘛？';
+					} else if (now > 5 && now <= 7) {
+						text = '早上好！一日之计在于晨，美好的一天就要开始了！';
+					} else if (now > 7 && now <= 11) {
+						text = '上午好！工作顺利嘛，不要久坐，多起来走动走动哦！';
+					} else if (now > 11 && now <= 14) {
+						text = '中午了，工作了一个上午，现在是午餐时间！';
+					} else if (now > 14 && now <= 17) {
+						text = '午后很容易犯困呢，今天的运动目标完成了吗？';
+					} else if (now > 17 && now <= 19) {
+						text = '傍晚了！窗外夕阳的景色很美丽呢，最美不过夕阳红~~';
+					} else if (now > 19 && now <= 21) {
+						text = '晚上好，今天过得怎么样？';
+					} else if (now > 21 && now <= 23) {
+						text = '已经这么晚了呀，早点休息吧，晚安~~';
+					} else {
+						text = '嗨~ 快来逗我玩吧！';
+					}
+				} else {
+					text = '欢迎阅读<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
+				}
+			}
+			showMessage(text, 12000);
+		})();
+
+		liveTlakTimer = setInterval(function () {
+			showHitokoto();
+		}, 15000);
+
+		function showHitokoto() {
+			if (sessionStorage.getItem("Sleepy") !== "1") {
+				if (!AITalkFlag) {
+					$.getJSON('https://v1.hitokoto.cn/', function (result) {
+						talkValTimer();
+						showMessage(result.hitokoto, 0);
+					});
+				}
+			} else {
+				hideMessage(0);
+				if (sleepTimer_ == null) {
+					sleepTimer_ = setInterval(function () {
+						checkSleep();
+					}, 200);
+				}
+			}
+		}
+
+		function checkSleep() {
+			var sleepStatu = sessionStorage.getItem("Sleepy");
+			if (sleepStatu !== '1') {
+				talkValTimer();
+				showMessage('你回来啦~', 0);
+				clearInterval(sleepTimer_);
+				sleepTimer_ = null;
+			}
+		}
+
+		function showMessage(text, timeout) {
+			if (Array.isArray(text)) text = text[Math.floor(Math.random() * text.length + 1) - 1];
+			$('.message').stop();
+			$('.message').html(text);
+			$('.message').fadeTo(200, 1);
+			//if (timeout === null) timeout = 5000;
+			//hideMessage(timeout);
+		}
+		function talkValTimer() {
+			$('#live_talk').val('1');
+		}
+
+		function hideMessage(timeout) {
+			//$('.message').stop().css('opacity',1);
+			if (timeout === null) timeout = 5000;
+			$('.message').delay(timeout).fadeTo(200, 0);
+		}
+
+		function initLive2d() {
+			$('#hideButton').on('click', function () {
+				if (AIFadeFlag) {
+					return false;
+				} else {
+					AIFadeFlag = true;
+					localStorage.setItem("live2dhidden", "0");
+					$('#landlord').fadeOut(200);
+					$('#open_live2d').delay(200).fadeIn(200);
+					setTimeout(function () {
+						AIFadeFlag = false;
+					}, 300);
+				}
+			});
+			$('#open_live2d').on('click', function () {
+				if (AIFadeFlag) {
+					return false;
+				} else {
+					AIFadeFlag = true;
+					localStorage.setItem("live2dhidden", "1");
+					$('#open_live2d').fadeOut(200);
+					$('#landlord').delay(200).fadeIn(200);
+					setTimeout(function () {
+						AIFadeFlag = false;
+					}, 300);
+				}
+			});
+			$('#youduButton').on('click', function () {
+				if ($('#youduButton').hasClass('doudong')) {
+					var typeIs = $('#youduButton').attr('data-type');
+					$('#youduButton').removeClass('doudong');
+					$('body').removeClass(typeIs);
+					$('#youduButton').attr('data-type', '');
+				} else {
+					var duType = $('#duType').val();
+					var duArr = duType.split(",");
+					var dataType = duArr[Math.floor(Math.random() * duArr.length)];
+
+					$('#youduButton').addClass('doudong');
+					$('#youduButton').attr('data-type', dataType);
+					$('body').addClass(dataType);
+				}
+			});
+			if (apiKey) {
+				$('#showInfoBtn').on('click', function () {
+					var live_statu = $('#live_statu_val').val();
+					if (live_statu == "0") {
+						return
+					} else {
+						$('#live_statu_val').val("0");
+						$('.live_talk_input_body').fadeOut(500);
+						AITalkFlag = false;
+						showHitokoto();
+						$('#showTalkBtn').show();
+						$('#showInfoBtn').hide();
+					}
+				});
+				$('#showTalkBtn').on('click', function () {
+					var live_statu = $('#live_statu_val').val();
+					if (live_statu == "1") {
+						return
+					} else {
+						$('#live_statu_val').val("1");
+						$('.live_talk_input_body').fadeIn(500);
+						AITalkFlag = true;
+						$('#showTalkBtn').hide();
+						$('#showInfoBtn').show();
+
+					}
+				});
+				$('#talk_send').on('click', function () {
+					var info_ = $('#AIuserText').val();
+					var userid_ = $('#AIuserName').val();
+					if (info_ == "") {
+						showMessage('写点什么吧！', 0);
+						return;
+					}
+					if (userid_ == "") {
+						showMessage('聊之前请告诉我你的名字吧！', 0);
+						return;
+					}
+					showMessage('思考中~', 0);
+					let protocol = window.location.protocol.indexOf("s") > 0 ? "https" : "http";
+					$.ajax({
+						type: "get",
+						url: `${protocol}://www.tuling123.com/openapi/api?key=${apiKey}&info=${info_}`,
+						dataType: "json",
+						success: function (res) {
+							talkValTimer();
+							showMessage(res.text, 0);
+							$('#AIuserText').val("");
+							sessionStorage.setItem("live2duser", userid_);
+						},
+						error: function (e) {
+							talkValTimer();
+							showMessage('似乎有什么错误，请和站长联系！', 0);
+						}
+					});
+				});
+			} else {
+				$('#showInfoBtn').hide();
+				$('#showTalkBtn').hide();
+			}
+			//获取音乐信息初始化
+			var bgmListInfo = $('input[name=live2dBGM]');
+			if (bgmListInfo.length == 0) {
+				$('#musicButton').hide();
+			} else {
+				var bgmPlayNow = parseInt($('#live2d_bgm').attr('data-bgm'));
+				var bgmPlayTime = 0;
+				var live2dBGM_Num = sessionStorage.getItem("live2dBGM_Num");
+				var live2dBGM_PlayTime = sessionStorage.getItem("live2dBGM_PlayTime");
+				if (live2dBGM_Num) {
+					if (live2dBGM_Num <= $('input[name=live2dBGM]').length - 1) {
+						bgmPlayNow = parseInt(live2dBGM_Num);
+					}
+				}
+				if (live2dBGM_PlayTime) {
+					bgmPlayTime = parseInt(live2dBGM_PlayTime);
+				}
+				var live2dBGMSrc = bgmListInfo.eq(bgmPlayNow).val();
+				$('#live2d_bgm').attr('data-bgm', bgmPlayNow);
+				$('#live2d_bgm').attr('src', live2dBGMSrc);
+				$('#live2d_bgm')[0].currentTime = bgmPlayTime;
+				$('#live2d_bgm')[0].volume = 0.5;
+				var live2dBGM_IsPlay = sessionStorage.getItem("live2dBGM_IsPlay");
+				var live2dBGM_WindowClose = sessionStorage.getItem("live2dBGM_WindowClose");
+				if (live2dBGM_IsPlay == '0' && live2dBGM_WindowClose == '0') {
+					$('#live2d_bgm')[0].play();
+					$('#musicButton').addClass('play');
+				}
+				sessionStorage.setItem("live2dBGM_WindowClose", '1');
+				$('#musicButton').on('click', function () {
+					if ($('#musicButton').hasClass('play')) {
+						$('#live2d_bgm')[0].pause();
+						$('#musicButton').removeClass('play');
+						sessionStorage.setItem("live2dBGM_IsPlay", '1');
+					} else {
+						$('#live2d_bgm')[0].play();
+						$('#musicButton').addClass('play');
+						sessionStorage.setItem("live2dBGM_IsPlay", '0');
+					}
+				});
+				window.onbeforeunload = function () {
+					sessionStorage.setItem("live2dBGM_WindowClose", '0');
+					if ($('#musicButton').hasClass('play')) {
+						sessionStorage.setItem("live2dBGM_IsPlay", '0');
+					}
+				}
+				document.getElementById('live2d_bgm').addEventListener("timeupdate", function () {
+					var live2dBgmPlayTimeNow = document.getElementById('live2d_bgm').currentTime;
+					sessionStorage.setItem("live2dBGM_PlayTime", live2dBgmPlayTimeNow);
+				});
+				document.getElementById('live2d_bgm').addEventListener("ended", function () {
+					var listNow = parseInt($('#live2d_bgm').attr('data-bgm'));
+					listNow++;
+					if (listNow > $('input[name=live2dBGM]').length - 1) {
+						listNow = 0;
+					}
+					var listNewSrc = $('input[name=live2dBGM]').eq(listNow).val();
+					sessionStorage.setItem("live2dBGM_Num", listNow);
+					$('#live2d_bgm').attr('src', listNewSrc);
+					$('#live2d_bgm')[0].play();
+					$('#live2d_bgm').attr('data-bgm', listNow);
+				});
+				document.getElementById('live2d_bgm').addEventListener("error", function () {
+					$('#live2d_bgm')[0].pause();
+					$('#musicButton').removeClass('play');
+					showMessage('音乐似乎加载不出来了呢！', 0);
+				});
+			}
+			//获取用户名
+			var live2dUser = sessionStorage.getItem("live2duser");
+			if (live2dUser !== null) {
+				$('#AIuserName').val(live2dUser);
+			}
+			//获取位置
+			var landL = sessionStorage.getItem("historywidth");
+			var landB = sessionStorage.getItem("historyheight");
+			if (landL == null || landB == null) {
+				landL = '5px'
+				landB = '0px'
+			}
+			$('#landlord').css('left', landL + 'px');
+			$('#landlord').css('bottom', landB + 'px');
+			//移动
+			function getEvent() {
+				return window.event || arguments.callee.caller.arguments[0];
+			}
+			var smcc = document.getElementById("landlord");
+			var moveX = 0;
+			var moveY = 0;
+			var moveBottom = 0;
+			var moveLeft = 0;
+			var moveable = false;
+			var docMouseMoveEvent = document.onmousemove;
+			var docMouseUpEvent = document.onmouseup;
+			smcc.onmousedown = function () {
+				var ent = getEvent();
+				moveable = true;
+				moveX = ent.clientX;
+				moveY = ent.clientY;
+				var obj = smcc;
+				moveBottom = parseInt(obj.style.bottom);
+				moveLeft = parseInt(obj.style.left);
+				if (isFirefox = navigator.userAgent.indexOf("Firefox") > 0) {
+					window.getSelection().removeAllRanges();
+				}
+				document.onmousemove = function () {
+					if (moveable) {
+						var ent = getEvent();
+						var x = moveLeft + ent.clientX - moveX;
+						var y = moveBottom + (moveY - ent.clientY);
+						obj.style.left = x + "px";
+						obj.style.bottom = y + "px";
+					}
+				};
+				document.onmouseup = function () {
+					if (moveable) {
+						var historywidth = obj.style.left;
+						var historyheight = obj.style.bottom;
+						historywidth = historywidth.replace('px', '');
+						historyheight = historyheight.replace('px', '');
+						sessionStorage.setItem("historywidth", historywidth);
+						sessionStorage.setItem("historyheight", historyheight);
+						document.onmousemove = docMouseMoveEvent;
+						document.onmouseup = docMouseUpEvent;
+						moveable = false;
+						moveX = 0;
+						moveY = 0;
+						moveBottom = 0;
+						moveLeft = 0;
+					}
+				};
+			};
+		}
+		$(document).ready(function () {
+			var AIimgSrc = [];
+			let chooseLive2d = 'histoire'
+			if (chooseLive2d === 'histoire') {
+				AIimgSrc.push(message_Path + "model/histoire/histoire.1024/texture_00.png");
+				AIimgSrc.push(message_Path + "model/histoire/histoire.1024/texture_01.png");
+				AIimgSrc.push(message_Path + "model/histoire/histoire.1024/texture_02.png");
+				AIimgSrc.push(message_Path + "model/histoire/histoire.1024/texture_03.png");
+			} else if (chooseLive2d === 'rem') {
+				AIimgSrc.push(message_Path + "model/rem/remu2048/texture_00.png");
+			} else if (chooseLive2d === 'Aoba') {
+				AIimgSrc.push(message_Path + "model/Aoba/textures/texture_00.png");
+			} else if (chooseLive2d === 'hijiki') {
+				AIimgSrc.push(message_Path + "model/hijiki/moc/hijiki.2048/texture_00.png");
+			} else if (chooseLive2d === 'tororo') {
+				AIimgSrc.push(message_Path + "model/tororo/moc/tororo.2048/texture_00.png");
+			}
+			var images = [];
+			var imgLength = AIimgSrc.length;
+			var loadingNum = 0;
+			for (var i = 0; i < imgLength; i++) {
+				images[i] = new Image();
+				images[i].src = AIimgSrc[i];
+				images[i].onload = function () {
+					loadingNum++;
+					if (loadingNum === imgLength) {
+						var live2dhidden = localStorage.getItem("live2dhidden");
+						if (live2dhidden === "0") {
+							setTimeout(function () {
+								$('#open_live2d').fadeIn(200);
+							}, 1300);
+						} else {
+							setTimeout(function () {
+								$('#landlord').fadeIn(200);
+							}, 1300);
+						}
+						let model = '';
+						if (chooseLive2d === 'histoire') {
+							model = message_Path + "model/histoire/model.json";
+						} else if (chooseLive2d === 'rem') {
+							model = message_Path + "model/rem/model.json";
+						} else if (chooseLive2d === 'Aoba') {
+							model = message_Path + "model/Aoba/model.json";
+						} else if (chooseLive2d === 'hijiki') {
+							model = message_Path + "model/hijiki/hijiki.model.json";
+						} else if (chooseLive2d === 'tororo') {
+							model = message_Path + "model/tororo/tororo.model.json";
+						}
+						setTimeout(function () {
+							loadlive2d("live2d", model);
+						}, 1000);
+						initLive2d();
+						images = null;
+					}
+				}
+			}
+		});
+	}
+</script>
+  
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+  back2TopText = document.querySelector('#back_to_top_text'),
+  drawerBox = document.querySelector('#drawer_box'),
+  rightSideBar = document.querySelector('.sidebar'),
+  viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+   
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function(e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+  
+  window.addEventListener('scroll', function(e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  
+  let hasCacu = false;
+  window.onresize = function() {
+    if (window.width > 991) {
+      calcuHeight();
+    } else {
+      hasCacu = false;
+    }
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+  
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function() {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, transitionDir,{ });
+          }
+        })
+        window.Velocity(viewport, openProp,{
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp ,{
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = 'true'
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target","_blank");
+      }
+    })
+  }
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+</script>
+    <div class="light-box" id="light_box"></div>
+<script>
+  let imgs = document.querySelectorAll('.post-body img');
+  let lightBox = document.querySelector('#light_box');
+  lightBox.addEventListener('mousedown', (e) => {
+    e.preventDefault()
+  })
+  lightBox.addEventListener('mousewheel', (e) => {
+    e.preventDefault()
+  })
+  let width = window.innerWidth * 0.8;
+  lightBox.onclick = () => {
+    let img = lightBox.querySelector('img');
+    lightBox.style = '';
+    img && img.remove();
+  }
+  imgs.forEach(item => {
+    item.onclick = function (e) {
+      let lightImg = document.createElement('img');
+      lightImg.src = this.src;
+      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
+      lightImg.style = `width: ${width}px; border: 1px solid #fff; border-radius: 2px;`;
+      lightImg.onclick = function () {
+        lightBox.style = '';
+        this.remove();
+      }
+      lightBox.append(lightImg);
+    }
+  })
+</script>
+  </div>
+</body>
+<input hidden id="copy" />
+<script>
+  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        console.log('复制操作频率过高');
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+</script>
+<script src="/media/js/motion.js"></script>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 500
+  });
+</script>
+
+<!-- <div class="search-mask" id="search_mask">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input type="text" placeholder="搜索">
+      </div>
+      <i class="fa fa-times-circle"></i>
+    </div>
+    <div class="result">
+      
+      <div class="item">
+        <a class="result-title" href="https://lengjinyang.github.io/post/gu-dai-shan-gu/"" data-c="
+          &lt;ul&gt;
+&lt;li&gt;TODO 地编学习任务
+&lt;ul&gt;
+&lt;li&gt;文档链接
+&lt;ul&gt;
+&lt;li&gt;https://docs.qq.com/doc/DTU5VTlF3bWR2ZUZP?_t=1656732083283&amp;amp;u=c94d6f1931bc4b57bfd83cfeddebe618&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;文章阅读
+&lt;ul&gt;
+&lt;li&gt;学习要求：阅读文章，并思考作者关于故事与场景之间的转化联系，思考场景的氛围，白盒到最终效果的思路。&lt;/li&gt;
+&lt;li&gt;原文链接：https://gamesartist.co.uk/golden-valley/&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;笔记正文：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;首先确定一个目标&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;世界建筑演示&lt;/li&gt;
+&lt;li&gt;光照与构图&lt;/li&gt;
+&lt;li&gt;故事、关卡设计、游戏玩法&lt;/li&gt;
+&lt;li&gt;实现 UE5 新功能、Lumen、Nanite 等&lt;/li&gt;
+&lt;li&gt;捕获完整的进度和过程&lt;/li&gt;
+&lt;li&gt;至少 30 FPS 游戏捕获&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;制作内容和最后成果&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;根据需要经常使用免费的 Epic 和 Quixel 资产。&lt;/li&gt;
+&lt;li&gt;2-3 个英雄资产。非摄影测量、高多边形、纹理、纳米网格。&lt;/li&gt;
+&lt;li&gt;一个定位镜头，一张静止的 4k 图像。&lt;/li&gt;
+&lt;li&gt;两个建立序列，每个序列 5-10 秒。&lt;/li&gt;
+&lt;li&gt;然后在路径上进行 30 秒的“游戏”步行序列。&lt;/li&gt;
+&lt;li&gt;如果时间允许，从凉爽的角度很少额外的镜头。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;要确定自己是要练习的是创建资产还是搭建场景&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果要练习创建资产，就尽量所有资产都自己制作&lt;/li&gt;
+&lt;li&gt;如果要练习搭建场景，那么就尽可能多的使用EPIC和quixel资源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;故事感过程的思考&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;从写一个故事，作为创建场景的开始&lt;/li&gt;
+&lt;li&gt;下面是原文作者写的：
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;“黄昏时分，她终于到了高门。曾经是宏伟城堡的入口，这座破碎的拱门现在经常无人看守。夕阳西下，落在了黄金谷的西山后面。平静但复仇心切，就像下面的河流一样，她在曾经由她的可汗巴巴统治的小镇中寻找盟友。她必须进入Creed&#39;s Inn，才能见到那个神秘的老人。在他的帮助下，她将在午夜过河，从黑暗的一面爬上城堡。她的计划就这样结束了。”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;这几句台词实际上就是我在这个场景中捕捉到的故事中的确切时刻。这是其余的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;“他们被称为‘古人’。沿着帕米尔帝国的南部边境建造这些宏伟城堡的人们。他们是石匠大师，在这些山上随处可见的石头。然后有一天晚上，正如传说中的那样，大地震动并摧毁了整个城堡链以及与他们一起建造者的骄傲。河流改变了它们的路线，一些小镇完全消失在地球的腹地。大灾变后600年，有11户农家的氏族在这些山中避难。他们从甘古尔人逃出，在罕萨河沿岸的金色山谷中找到了慰藉和避难所。他们在严酷的漫长冬季中幸存下来，并用他们在山上找到的任何东西建造了他们简陋的住宅。漫长的冬天、崎岖的地形和有限的通道对他们有利。他们曾经在罕萨三角洲的肥沃土地上耕种。但在这里，只要有一块地，他们就只能种几棵杏树和杏树。他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 但在这里，只要有一块地，他们就只能种几棵杏树和杏树。他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 但在这里，只要有一块地，他们就只能种几棵杏树和杏树。他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……”&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;参考&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;从故事中提取出视觉特点，想象在这个世界中画面的细节&lt;/li&gt;
+&lt;li&gt;然后在互联网上寻找相关的参考&lt;/li&gt;
+&lt;li&gt;尽可能少的参考资料，避免产生混乱&lt;/li&gt;
+&lt;li&gt;最好寻找真实图像作为参考，不建议使用CG或者加工过的图像作为参考&lt;/li&gt;
+&lt;li&gt;概念图和CG图像可以作为灵感&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Blockout&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;首先创建一个摄像机并锁定他，确保不会意外移动&lt;/li&gt;
+&lt;li&gt;添加一个定向光作为主光，这是Blockout前的简单设置&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022044504.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;在创建关卡的过程中，不断重复地修改构图、灯光、氛围是很正常的&lt;br&gt;
+尽可能在blockout阶段花费事件，因为可以让你快速修改和迭代&lt;/li&gt;
+&lt;li&gt;https://vimeo.com/716036874?embedded=true&amp;amp;source=vimeo_logo&amp;amp;owner=4771183&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;内容构成&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在blockout阶段就确定构图，区分开前中远景，对于宏大场景来说，这会增加场景深度和呼吸感&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022046664.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;作者为了保持画面中笔直的垂直线，没有让相机太低或者太高产生透视效果，让垂直线变得有透视感，而保持画面中垂直线会增加建筑的宏伟感和规模感&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022047160.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;由于要保证相机的位置让画面内竖线的垂直，所以地面的高度会比较高，这就导致了下一个决定&lt;/li&gt;
+&lt;li&gt;一个是玩家走过的道路，一个是地面的河流&lt;/li&gt;
+&lt;li&gt;在确定上面的内容后，我们得知需要使用地形资源和水插件来创建河流，但是作者在这里提到了避免在UE5中使用景观，不知道为什么&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;自我批评&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在这个阶段，截一张图，然后分析这张画面的优缺点，再通过画笔或者文字提出修改或者后续想法，但是即使场景不断深化，你也可以看到blockout阶段对最终构图的影响&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022047632.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;场景搭建&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;没有使用复杂的地形材质，只用了一个简单的平铺材质&lt;/li&gt;
+&lt;li&gt;使用地形actor作为地面，用megascans的沙质材料&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022048396.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022048458.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;最重要的一步，使用megascans的资产，装饰河流 这个步骤将山脉和地面相连接，稍微调整一下材质的颜色，让他能够融入画面&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022049502.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022051936.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;虽然整个场景不断变化，但是整体的构思是没变的，就是我们早期定下的基调&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;道路&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;用网格样条线创建道路，作者使用了平铺纹理，单单这样并不会好看 &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022052993.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;路旁边的地面使用相同的办法，不必使用复杂的地形材质来将纹理和资产混合在一起，要做的仅仅是调整资产的abedo颜色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;鸟&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;由于这个场景中没有人类，所以需要一些东西来创造一种宏大感，添加鸟是一种很好的办法&lt;/li&gt;
+&lt;li&gt;通过quixel的中世纪村庄环境的乌鸦骨骼网络来实现，修改模型 &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022052065.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;制作一个蓝图，自定义样条线用作路径，让物体可以沿着样条线循环移动到另外一个蓝图 &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022053940.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;经过一番折腾，就可以得到一个完全3D，具有动态阴影的鸟群，对于正式项目来说，鸟的阴影可能不是很必要，但是对于个人作品来说，这些小细节很有趣&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;山脉&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;山是环境的关键元素，尽管world creator、grea等地形软件创建出来的地形很不错，但是由高度图产生的地形是不会产生具有凹凸和形状突出的山&lt;/li&gt;
+&lt;li&gt;使用houdini可以转换为VDB并使用侵蚀效果，已经有很多作品可以看到，但是本场景需要高真实度，所以需要大量细节，并且为了做出多种变化，每个资产都是独一无二的&lt;/li&gt;
+&lt;li&gt;用高度图制作山脉的模型，然后用megascans的岩石给他装饰，这样有很多优点
+&lt;ul&gt;
+&lt;li&gt;在引擎中创建剪影，能动态查看效果和低成本的修改&lt;/li&gt;
+&lt;li&gt;不在引擎外雕刻和烘焙，节省时间&lt;/li&gt;
+&lt;li&gt;可以重复使用相同的石头数十次，这让他们看起来是同一个生物群系的一部分&lt;/li&gt;
+&lt;li&gt;可以创建无限数量的独特轮廓和山脉变化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;在高度图生成的基础山脉上创建一种自定义材质，让他更好的融合岩石 &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022053510.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;尽管有很多更好的办法来创建逼真的山脉，可以减少四边形过度绘制，但是由于时间限制，我们使用的技术就非常适合&lt;/li&gt;
+&lt;li&gt;远处山脉是简单的网格山脉，添加一些细节法线贴图，让他们在场景中提供正确的比例&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;核心资产&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;很多人在处理核心资产时会不知所措，首先要明确定义需要重点展示的区域，这将大大降低你的工作量&lt;/li&gt;
+&lt;li&gt;作者使用ZB制作这个资产&lt;br&gt;
+然后使用3Dmax修复问题，降低面数&lt;br&gt;
+并且分好材质ID ，拆分好UV &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022054508.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;导入到引擎中，准备好两种材质，一种是表面材质，另外一种是破损处材质，匹配好纹理密度，就能很好的融合在一起&lt;/li&gt;
+&lt;li&gt;添加贴花，在网格角落或者破损处添加苔藓，最后在一些可以生长草的地方让他长出几根草来，这样看起来就会更加真实而有趣一些 &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022054323.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt; &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022054572.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt; &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022054307.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;主体资产已经制作完毕，可以开始制作次要资产了，使用相同的制作手法设计制作，在这些资产上，不必保持特定的纹理比例，因为你不会离他们很近&lt;br&gt;
+唯一比较重要的是轮廓剪影和可辨识度，只要它从远处就能分辨出来，就可以了 &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022056018.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt; &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022056033.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt; &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022056703.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;尽管这些资产近处看起来不是很棒，但是创建个人世界搭建项目，这种方法很关键，尤其在大规模场景中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;雾和光束&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;雾气在这种场景中起到非常重要的作用，它与光一起将一切关联在了一起。不要过度添加雾，在这种环境中，河流是雾气的来源&lt;/li&gt;
+&lt;li&gt;需要注意的是，在这个场景中，雾气只放在光线强的地方，使用一点点的指数级高度雾和许多雾片 &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030001647.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt; &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030001549.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;雾片材质 &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030002592.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;光束材质 &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030002139.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;天空&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用UE5演示案例古代峡谷中的HDR天空&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;灯光&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;有很多不同的照明方式，这取决于我们想达到的效果，这里想达到的效果是宏伟的史诗感。非常戏剧化和近乎超现实的氛围，能让人想起指环王、战神&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;关于游戏性的小提示&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;玩家进入这片区域的时候，起点应该是比较暗的，然后是第一站，玩家必须获得武器、马或者其他东西，也许是对话、过场动画等，所以有一束光引导他走向重点，这也是可以看到整个山谷的位置&lt;/li&gt;
+&lt;li&gt;玩家将会享受这一刻，并沉浸进去。沿着这条路，他会经过一个村庄，然后是一个哨所，一场小型战斗。。。经过过场动画，爬上城墙，经过暗门，到达城堡并战胜BOSS，要注意，灯光要引导这一个进程 &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030003850.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;环境光&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用了实时捕获的天光，一点点微弱的定向光，增强光穿过云层的一点蓝色影响&lt;/li&gt;
+&lt;li&gt;定向光的接触阴影修改为比较柔和，定向光还为场景中所有物体都增加了一个稍微亮一些的亮面，这增加了物体的可辨识度和可读性&lt;/li&gt;
+&lt;li&gt;启用了lumen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;氛围灯、轮廓灯&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;要注意我们不是在重建现实，我们只是让他可信&lt;/li&gt;
+&lt;li&gt;在这个场景中主光来自多个聚光灯，比较分散地模仿太阳的方向，但不是100%准确地，其中一些灯在山顶和树木处提供轮廓光。这些聚光灯大多数都没有阴影，这对性能很重要，阴影在相机可视范围外不显示&lt;/li&gt;
+&lt;li&gt;尽管lumen实现了很多效果，但是仍然需要伪造一些光照 &lt;img src=&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030003772.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;&lt;/li&gt;
+&lt;li&gt;大纲管理
+&lt;ul&gt;
+&lt;li&gt;将不同的灯光重命名，可以通过添加颜色或者文件夹进一步分类，让他更好更快的被查找到&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;渲染&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;mark&gt;从一开始就确定好宽高比，否则你无法确定构图&lt;/mark&gt;&lt;/li&gt;
+&lt;li&gt;作者一开始就确定了1：2的比例，以24FPS的帧率渲染序列，并且开启了一丢丢（0.5）运动模糊，这就会产生我们熟悉的电影感&lt;/li&gt;
+&lt;li&gt;后期处理再添加一点晕影。在这个场景中，并没有后期调色和LUT&lt;/li&gt;
+&lt;li&gt;MRQ中添加了抗锯齿，其他都是默认设置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;mark&gt;提示和关键点&lt;/mark&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;有规划和整体方法是非常重要的，通过列出明确目标和明确范围做到这一点，把这些写出来有助于坚持下去，这对大型个人项目是必不可少的&lt;/li&gt;
+&lt;li&gt;将故事融入场景、构图、灯光和氛围&lt;/li&gt;
+&lt;li&gt;培养搭建关卡的思维并使用它，直到成为一种习惯&lt;/li&gt;
+&lt;li&gt;根据一个镜头或者几个镜头优化工作量，抵制一切都要做到完美的诱惑&lt;/li&gt;
+&lt;li&gt;在深入制作之前，尽可能在blockout阶段停留&lt;/li&gt;
+&lt;li&gt;截图出来查看，多次迭代改进&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+">古代山谷</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://lengjinyang.github.io/post/txsjsc/"" data-c="
+          &lt;!-- more --&gt;
+&lt;h1 id=&#34;特效设计手册&#34;&gt;特效设计手册&lt;/h1&gt;
+&lt;h5 id=&#34;构思&#34;&gt;构思：&lt;/h5&gt;
+&lt;p&gt;1.点：确定一个主题&lt;/p&gt;
+&lt;p&gt;2.看：找参考，特效的特点，尽量真实，可以让人一眼分辨出来&lt;/p&gt;
+&lt;p&gt;3.想：增加主题的元素&lt;/p&gt;
+&lt;p&gt;4.just do it！🥰&lt;/p&gt;
+&lt;hr&gt;
+&lt;h5 id=&#34;特效画面&#34;&gt;特效画面&lt;/h5&gt;
+&lt;p&gt;视觉特点😊&lt;/p&gt;
+&lt;p&gt;1.主要元素：大的，明显的，对比度高，节奏快。&lt;/p&gt;
+&lt;p&gt;强对比度和饱和度，强透明度，清晰的轮廓，比较复杂的造型，激烈的动态&lt;/p&gt;
+&lt;p&gt;​	表达了技能目的，视觉焦点，需要很强的主题性质&lt;/p&gt;
+&lt;p&gt;2.环境元素(次要元素)：相对不那么明显，低对比度，相对节奏慢&lt;/p&gt;
+&lt;p&gt;比较简单的造型，模糊的轮廓，比较小的体积，低透明度，比较弱的动态变化(反正就是和主要元素对着来🤣)&lt;/p&gt;
+&lt;p&gt;​	加强主体的节奏，丰富整个技能的元素 动态 主题以及色彩&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;特效颜色😶‍🌫️&lt;/p&gt;
+&lt;p&gt;明度太高或者太低，对比度都会提升，特效的主体颜色最好是对比度较高的颜色。当我们感觉画面比较灰的时候，考虑一下是不是色彩都在低对比度区间。当感觉特效太亮或者太曝的情况下，不用一味去降低特效的明度，可以考虑加入一些低明度的颜色保持整个颜色的对比度平衡。不同属性的元素，对比度取值不同，比如有些元素是需要低对比度，比如风，烟雾。&lt;/p&gt;
+&lt;p&gt;取色的时候主体颜色最好不要超过三个颜色取值。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;特效图形设计😶‍🌫️&lt;/p&gt;
+&lt;p&gt;点设计(视觉焦点)：注意点要有大小，疏密，透明度的区分，越大的、越密的地方、透明度越高的越能占据视觉焦点&lt;/p&gt;
+&lt;p&gt;线设计(引导力的方向，营造体积感)&lt;/p&gt;
+&lt;p&gt;面设计(概括大的造型)&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;特效元素❤️&lt;/p&gt;
+&lt;p&gt;制作过程中先去制作主题元素&lt;/p&gt;
+&lt;p&gt;1.魔法元素&lt;/p&gt;
+&lt;p&gt;2.自然元素&lt;/p&gt;
+&lt;p&gt;3.科技元素&lt;/p&gt;
+&lt;p&gt;合理组合特效元素：&lt;/p&gt;
+&lt;p&gt;​	每个特效都要有明显的虚实变化&lt;/p&gt;
+&lt;p&gt;​	通过颜色，不透明度，贴图的软硬，元素的属性等等来区分虚实&lt;/p&gt;
+&lt;p&gt;​	通常来说范围越大纹理越虚，反之越小纹理相对越实&lt;/p&gt;
+&lt;p&gt;​	对主次元素进行区分&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;变化(对比)😍&lt;/p&gt;
+&lt;p&gt;1.多和少&lt;/p&gt;
+&lt;p&gt;2.大小&lt;/p&gt;
+&lt;p&gt;3.快慢&lt;/p&gt;
+&lt;p&gt;4.明暗&lt;/p&gt;
+&lt;p&gt;5.色调变化&lt;/p&gt;
+&lt;p&gt;特效要注意起承转结，上一个画面快结束的时候可以适当加一些下一个画面的元素在画面里，在下一个画面中也可以残留一些上个画面的元素。&lt;/p&gt;
+&lt;p&gt;还要注意元素的统一，不要出现奇奇怪怪的元素。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h6 id=&#34;特效的流程&#34;&gt;特效的流程&lt;/h6&gt;
+&lt;p&gt;前奏——爆点——余韵&lt;/p&gt;
+&lt;p&gt;所有特效都有开始以及消失，特效不会凭空消失或者凭空出现。&lt;/p&gt;
+&lt;p&gt;结束的时候需要用次要元素表现，比如消散的烟雾，飘散的粒子。&lt;/p&gt;
+&lt;p&gt;特效的能量变化可以通过尺寸，明度，饱和度，色调去表达&lt;/p&gt;
+&lt;p&gt;每个元素或者每一个类型都有其相对的自然物理运动规律。&lt;/p&gt;
+&lt;p&gt;爆点之前可以给个低谷，降低预期，然后再瞬间达到高潮，注意这个节奏并不是固定的，比如可以多重爆点，这个主要看你的设计。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Tips&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;如何让特效精致:贴图选择很重要——纹理的边缘清晰，细节适当，质量适当，贴图需要具有虚实变化，软硬变化。&lt;/p&gt;
+">特效设计手册</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://lengjinyang.github.io/post/zhu-yao-ce-shi-gridea-de-fa-bu/"" data-c="
+          &lt;p&gt;随便写几句，顺便插个图进来&lt;br&gt;
+&lt;img src=&#34;https://lengjinyang.github.io/post-images/1655411811294.jpg&#34; alt=&#34;&#34; loading=&#34;lazy&#34;&gt;😝😣😉&lt;/p&gt;
+&lt;!-- more --&gt;
+">主要测试gridea的发布</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://lengjinyang.github.io/post/about/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;欢迎来到我的小站呀，很高兴遇见你！🤝&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于本站&#34;&gt;🏠 关于本站&lt;/h2&gt;
+&lt;h2 id=&#34;博主是谁&#34;&gt;👨‍💻 博主是谁&lt;/h2&gt;
+&lt;h2 id=&#34;兴趣爱好&#34;&gt;⛹ 兴趣爱好&lt;/h2&gt;
+&lt;h2 id=&#34;联系我呀&#34;&gt;📬 联系我呀&lt;/h2&gt;
+">关于</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<script>
+  // var escape = "[{&#34;content&#34;:&#34;&lt;ul&gt;\n&lt;li&gt;TODO 地编学习任务\n&lt;ul&gt;\n&lt;li&gt;文档链接\n&lt;ul&gt;\n&lt;li&gt;https://docs.qq.com/doc/DTU5VTlF3bWR2ZUZP?_t=1656732083283&amp;amp;u=c94d6f1931bc4b57bfd83cfeddebe618&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;文章阅读\n&lt;ul&gt;\n&lt;li&gt;学习要求：阅读文章，并思考作者关于故事与场景之间的转化联系，思考场景的氛围，白盒到最终效果的思路。&lt;/li&gt;\n&lt;li&gt;原文链接：https://gamesartist.co.uk/golden-valley/&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;笔记正文：&lt;/strong&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;首先确定一个目标&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;ol&gt;\n&lt;li&gt;世界建筑演示&lt;/li&gt;\n&lt;li&gt;光照与构图&lt;/li&gt;\n&lt;li&gt;故事、关卡设计、游戏玩法&lt;/li&gt;\n&lt;li&gt;实现 UE5 新功能、Lumen、Nanite 等&lt;/li&gt;\n&lt;li&gt;捕获完整的进度和过程&lt;/li&gt;\n&lt;li&gt;至少 30 FPS 游戏捕获&lt;/li&gt;\n&lt;/ol&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;制作内容和最后成果&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;ol&gt;\n&lt;li&gt;根据需要经常使用免费的 Epic 和 Quixel 资产。&lt;/li&gt;\n&lt;li&gt;2-3 个英雄资产。非摄影测量、高多边形、纹理、纳米网格。&lt;/li&gt;\n&lt;li&gt;一个定位镜头，一张静止的 4k 图像。&lt;/li&gt;\n&lt;li&gt;两个建立序列，每个序列 5-10 秒。&lt;/li&gt;\n&lt;li&gt;然后在路径上进行 30 秒的“游戏”步行序列。&lt;/li&gt;\n&lt;li&gt;如果时间允许，从凉爽的角度很少额外的镜头。&lt;/li&gt;\n&lt;/ol&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;要确定自己是要练习的是创建资产还是搭建场景&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;如果要练习创建资产，就尽量所有资产都自己制作&lt;/li&gt;\n&lt;li&gt;如果要练习搭建场景，那么就尽可能多的使用EPIC和quixel资源&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;故事感过程的思考&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;从写一个故事，作为创建场景的开始&lt;/li&gt;\n&lt;li&gt;下面是原文作者写的：\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;“黄昏时分，她终于到了高门。曾经是宏伟城堡的入口，这座破碎的拱门现在经常无人看守。夕阳西下，落在了黄金谷的西山后面。平静但复仇心切，就像下面的河流一样，她在曾经由她的可汗巴巴统治的小镇中寻找盟友。她必须进入Creed&#39;s Inn，才能见到那个神秘的老人。在他的帮助下，她将在午夜过河，从黑暗的一面爬上城堡。她的计划就这样结束了。”&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;这几句台词实际上就是我在这个场景中捕捉到的故事中的确切时刻。这是其余的。&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;“他们被称为‘古人’。沿着帕米尔帝国的南部边境建造这些宏伟城堡的人们。他们是石匠大师，在这些山上随处可见的石头。然后有一天晚上，正如传说中的那样，大地震动并摧毁了整个城堡链以及与他们一起建造者的骄傲。河流改变了它们的路线，一些小镇完全消失在地球的腹地。大灾变后600年，有11户农家的氏族在这些山中避难。他们从甘古尔人逃出，在罕萨河沿岸的金色山谷中找到了慰藉和避难所。他们在严酷的漫长冬季中幸存下来，并用他们在山上找到的任何东西建造了他们简陋的住宅。漫长的冬天、崎岖的地形和有限的通道对他们有利。他们曾经在罕萨三角洲的肥沃土地上耕种。但在这里，只要有一块地，他们就只能种几棵杏树和杏树。他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 但在这里，只要有一块地，他们就只能种几棵杏树和杏树。他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 但在这里，只要有一块地，他们就只能种几棵杏树和杏树。他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……”&lt;/p&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;参考&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;从故事中提取出视觉特点，想象在这个世界中画面的细节&lt;/li&gt;\n&lt;li&gt;然后在互联网上寻找相关的参考&lt;/li&gt;\n&lt;li&gt;尽可能少的参考资料，避免产生混乱&lt;/li&gt;\n&lt;li&gt;最好寻找真实图像作为参考，不建议使用CG或者加工过的图像作为参考&lt;/li&gt;\n&lt;li&gt;概念图和CG图像可以作为灵感&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;Blockout&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;首先创建一个摄像机并锁定他，确保不会意外移动&lt;/li&gt;\n&lt;li&gt;添加一个定向光作为主光，这是Blockout前的简单设置&lt;/li&gt;\n&lt;li&gt;&lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022044504.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;在创建关卡的过程中，不断重复地修改构图、灯光、氛围是很正常的&lt;br&gt;\n尽可能在blockout阶段花费事件，因为可以让你快速修改和迭代&lt;/li&gt;\n&lt;li&gt;https://vimeo.com/716036874?embedded=true&amp;amp;source=vimeo_logo&amp;amp;owner=4771183&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;内容构成&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;在blockout阶段就确定构图，区分开前中远景，对于宏大场景来说，这会增加场景深度和呼吸感&lt;/li&gt;\n&lt;li&gt;&lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022046664.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;作者为了保持画面中笔直的垂直线，没有让相机太低或者太高产生透视效果，让垂直线变得有透视感，而保持画面中垂直线会增加建筑的宏伟感和规模感&lt;/li&gt;\n&lt;li&gt;&lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022047160.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;由于要保证相机的位置让画面内竖线的垂直，所以地面的高度会比较高，这就导致了下一个决定&lt;/li&gt;\n&lt;li&gt;一个是玩家走过的道路，一个是地面的河流&lt;/li&gt;\n&lt;li&gt;在确定上面的内容后，我们得知需要使用地形资源和水插件来创建河流，但是作者在这里提到了避免在UE5中使用景观，不知道为什么&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;自我批评&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;在这个阶段，截一张图，然后分析这张画面的优缺点，再通过画笔或者文字提出修改或者后续想法，但是即使场景不断深化，你也可以看到blockout阶段对最终构图的影响&lt;/li&gt;\n&lt;li&gt;&lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022047632.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;场景搭建&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;没有使用复杂的地形材质，只用了一个简单的平铺材质&lt;/li&gt;\n&lt;li&gt;使用地形actor作为地面，用megascans的沙质材料&lt;/li&gt;\n&lt;li&gt;&lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022048396.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;&lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022048458.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;最重要的一步，使用megascans的资产，装饰河流 这个步骤将山脉和地面相连接，稍微调整一下材质的颜色，让他能够融入画面&lt;/li&gt;\n&lt;li&gt;&lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022049502.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;&lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022051936.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;虽然整个场景不断变化，但是整体的构思是没变的，就是我们早期定下的基调&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;道路&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;用网格样条线创建道路，作者使用了平铺纹理，单单这样并不会好看 &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022052993.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;路旁边的地面使用相同的办法，不必使用复杂的地形材质来将纹理和资产混合在一起，要做的仅仅是调整资产的abedo颜色&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;鸟&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;由于这个场景中没有人类，所以需要一些东西来创造一种宏大感，添加鸟是一种很好的办法&lt;/li&gt;\n&lt;li&gt;通过quixel的中世纪村庄环境的乌鸦骨骼网络来实现，修改模型 &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022052065.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;制作一个蓝图，自定义样条线用作路径，让物体可以沿着样条线循环移动到另外一个蓝图 &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022053940.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;经过一番折腾，就可以得到一个完全3D，具有动态阴影的鸟群，对于正式项目来说，鸟的阴影可能不是很必要，但是对于个人作品来说，这些小细节很有趣&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;山脉&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;山是环境的关键元素，尽管world creator、grea等地形软件创建出来的地形很不错，但是由高度图产生的地形是不会产生具有凹凸和形状突出的山&lt;/li&gt;\n&lt;li&gt;使用houdini可以转换为VDB并使用侵蚀效果，已经有很多作品可以看到，但是本场景需要高真实度，所以需要大量细节，并且为了做出多种变化，每个资产都是独一无二的&lt;/li&gt;\n&lt;li&gt;用高度图制作山脉的模型，然后用megascans的岩石给他装饰，这样有很多优点\n&lt;ul&gt;\n&lt;li&gt;在引擎中创建剪影，能动态查看效果和低成本的修改&lt;/li&gt;\n&lt;li&gt;不在引擎外雕刻和烘焙，节省时间&lt;/li&gt;\n&lt;li&gt;可以重复使用相同的石头数十次，这让他们看起来是同一个生物群系的一部分&lt;/li&gt;\n&lt;li&gt;可以创建无限数量的独特轮廓和山脉变化&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;在高度图生成的基础山脉上创建一种自定义材质，让他更好的融合岩石 &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022053510.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;尽管有很多更好的办法来创建逼真的山脉，可以减少四边形过度绘制，但是由于时间限制，我们使用的技术就非常适合&lt;/li&gt;\n&lt;li&gt;远处山脉是简单的网格山脉，添加一些细节法线贴图，让他们在场景中提供正确的比例&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;strong&gt;核心资产&lt;/strong&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;很多人在处理核心资产时会不知所措，首先要明确定义需要重点展示的区域，这将大大降低你的工作量&lt;/li&gt;\n&lt;li&gt;作者使用ZB制作这个资产&lt;br&gt;\n然后使用3Dmax修复问题，降低面数&lt;br&gt;\n并且分好材质ID ，拆分好UV &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022054508.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;导入到引擎中，准备好两种材质，一种是表面材质，另外一种是破损处材质，匹配好纹理密度，就能很好的融合在一起&lt;/li&gt;\n&lt;li&gt;添加贴花，在网格角落或者破损处添加苔藓，最后在一些可以生长草的地方让他长出几根草来，这样看起来就会更加真实而有趣一些 &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022054323.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt; &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022054572.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt; &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022054307.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;主体资产已经制作完毕，可以开始制作次要资产了，使用相同的制作手法设计制作，在这些资产上，不必保持特定的纹理比例，因为你不会离他们很近&lt;br&gt;\n唯一比较重要的是轮廓剪影和可辨识度，只要它从远处就能分辨出来，就可以了 &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022056018.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt; &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022056033.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt; &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022056703.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;尽管这些资产近处看起来不是很棒，但是创建个人世界搭建项目，这种方法很关键，尤其在大规模场景中&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;雾和光束&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;雾气在这种场景中起到非常重要的作用，它与光一起将一切关联在了一起。不要过度添加雾，在这种环境中，河流是雾气的来源&lt;/li&gt;\n&lt;li&gt;需要注意的是，在这个场景中，雾气只放在光线强的地方，使用一点点的指数级高度雾和许多雾片 &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030001647.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt; &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030001549.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;雾片材质 &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030002592.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;光束材质 &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030002139.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;天空&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;使用UE5演示案例古代峡谷中的HDR天空&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;灯光&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;\n&lt;p&gt;有很多不同的照明方式，这取决于我们想达到的效果，这里想达到的效果是宏伟的史诗感。非常戏剧化和近乎超现实的氛围，能让人想起指环王、战神&lt;/p&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;关于游戏性的小提示&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;玩家进入这片区域的时候，起点应该是比较暗的，然后是第一站，玩家必须获得武器、马或者其他东西，也许是对话、过场动画等，所以有一束光引导他走向重点，这也是可以看到整个山谷的位置&lt;/li&gt;\n&lt;li&gt;玩家将会享受这一刻，并沉浸进去。沿着这条路，他会经过一个村庄，然后是一个哨所，一场小型战斗。。。经过过场动画，爬上城墙，经过暗门，到达城堡并战胜BOSS，要注意，灯光要引导这一个进程 &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030003850.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;环境光&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;使用了实时捕获的天光，一点点微弱的定向光，增强光穿过云层的一点蓝色影响&lt;/li&gt;\n&lt;li&gt;定向光的接触阴影修改为比较柔和，定向光还为场景中所有物体都增加了一个稍微亮一些的亮面，这增加了物体的可辨识度和可读性&lt;/li&gt;\n&lt;li&gt;启用了lumen&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;氛围灯、轮廓灯&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;要注意我们不是在重建现实，我们只是让他可信&lt;/li&gt;\n&lt;li&gt;在这个场景中主光来自多个聚光灯，比较分散地模仿太阳的方向，但不是100%准确地，其中一些灯在山顶和树木处提供轮廓光。这些聚光灯大多数都没有阴影，这对性能很重要，阴影在相机可视范围外不显示&lt;/li&gt;\n&lt;li&gt;尽管lumen实现了很多效果，但是仍然需要伪造一些光照 &lt;img src=\&#34;http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030003772.png\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;&lt;/li&gt;\n&lt;li&gt;大纲管理\n&lt;ul&gt;\n&lt;li&gt;将不同的灯光重命名，可以通过添加颜色或者文件夹进一步分类，让他更好更快的被查找到&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;渲染&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;mark&gt;从一开始就确定好宽高比，否则你无法确定构图&lt;/mark&gt;&lt;/li&gt;\n&lt;li&gt;作者一开始就确定了1：2的比例，以24FPS的帧率渲染序列，并且开启了一丢丢（0.5）运动模糊，这就会产生我们熟悉的电影感&lt;/li&gt;\n&lt;li&gt;后期处理再添加一点晕影。在这个场景中，并没有后期调色和LUT&lt;/li&gt;\n&lt;li&gt;MRQ中添加了抗锯齿，其他都是默认设置&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;li&gt;\n&lt;p&gt;&lt;mark&gt;提示和关键点&lt;/mark&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;有规划和整体方法是非常重要的，通过列出明确目标和明确范围做到这一点，把这些写出来有助于坚持下去，这对大型个人项目是必不可少的&lt;/li&gt;\n&lt;li&gt;将故事融入场景、构图、灯光和氛围&lt;/li&gt;\n&lt;li&gt;培养搭建关卡的思维并使用它，直到成为一种习惯&lt;/li&gt;\n&lt;li&gt;根据一个镜头或者几个镜头优化工作量，抵制一切都要做到完美的诱惑&lt;/li&gt;\n&lt;li&gt;在深入制作之前，尽可能在blockout阶段停留&lt;/li&gt;\n&lt;li&gt;截图出来查看，多次迭代改进&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;,&#34;fileName&#34;:&#34;gu-dai-shan-gu&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;古代山谷&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;地编&#34;,&#34;slug&#34;:&#34;mSCmGmohn&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://lengjinyang.github.io/tag/mSCmGmohn/&#34;}],&#34;date&#34;:&#34;2022-07-02 20:27:02&#34;,&#34;dateFormat&#34;:&#34;2022-07-02&#34;,&#34;feature&#34;:&#34;https://cdna.artstation.com/p/assets/images/images/051/075/304/4k/games-artist-fazal-ullah-khan-taemoor-tgv-01a-copy.jpg?1656405813&#34;,&#34;link&#34;:&#34;https://lengjinyang.github.io/post/gu-dai-shan-gu/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;16 min read&#34;,&#34;time&#34;:914000,&#34;words&#34;:4500,&#34;minutes&#34;:16},&#34;description&#34;:&#34;\nTODO 地编学习任务\n\n文档链接\n\nhttps://docs.qq.com/doc/DTU5VTlF3bWR2ZUZP?_t=1656732083283&amp;amp;u=c94d6f1931bc4b57bfd83cfeddebe618\n\n\n...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;!-- more --&gt;\n&lt;h1 id=\&#34;特效设计手册\&#34;&gt;特效设计手册&lt;/h1&gt;\n&lt;h5 id=\&#34;构思\&#34;&gt;构思：&lt;/h5&gt;\n&lt;p&gt;1.点：确定一个主题&lt;/p&gt;\n&lt;p&gt;2.看：找参考，特效的特点，尽量真实，可以让人一眼分辨出来&lt;/p&gt;\n&lt;p&gt;3.想：增加主题的元素&lt;/p&gt;\n&lt;p&gt;4.just do it！🥰&lt;/p&gt;\n&lt;hr&gt;\n&lt;h5 id=\&#34;特效画面\&#34;&gt;特效画面&lt;/h5&gt;\n&lt;p&gt;视觉特点😊&lt;/p&gt;\n&lt;p&gt;1.主要元素：大的，明显的，对比度高，节奏快。&lt;/p&gt;\n&lt;p&gt;强对比度和饱和度，强透明度，清晰的轮廓，比较复杂的造型，激烈的动态&lt;/p&gt;\n&lt;p&gt;​\t表达了技能目的，视觉焦点，需要很强的主题性质&lt;/p&gt;\n&lt;p&gt;2.环境元素(次要元素)：相对不那么明显，低对比度，相对节奏慢&lt;/p&gt;\n&lt;p&gt;比较简单的造型，模糊的轮廓，比较小的体积，低透明度，比较弱的动态变化(反正就是和主要元素对着来🤣)&lt;/p&gt;\n&lt;p&gt;​\t加强主体的节奏，丰富整个技能的元素 动态 主题以及色彩&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;特效颜色😶‍🌫️&lt;/p&gt;\n&lt;p&gt;明度太高或者太低，对比度都会提升，特效的主体颜色最好是对比度较高的颜色。当我们感觉画面比较灰的时候，考虑一下是不是色彩都在低对比度区间。当感觉特效太亮或者太曝的情况下，不用一味去降低特效的明度，可以考虑加入一些低明度的颜色保持整个颜色的对比度平衡。不同属性的元素，对比度取值不同，比如有些元素是需要低对比度，比如风，烟雾。&lt;/p&gt;\n&lt;p&gt;取色的时候主体颜色最好不要超过三个颜色取值。&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;特效图形设计😶‍🌫️&lt;/p&gt;\n&lt;p&gt;点设计(视觉焦点)：注意点要有大小，疏密，透明度的区分，越大的、越密的地方、透明度越高的越能占据视觉焦点&lt;/p&gt;\n&lt;p&gt;线设计(引导力的方向，营造体积感)&lt;/p&gt;\n&lt;p&gt;面设计(概括大的造型)&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;特效元素❤️&lt;/p&gt;\n&lt;p&gt;制作过程中先去制作主题元素&lt;/p&gt;\n&lt;p&gt;1.魔法元素&lt;/p&gt;\n&lt;p&gt;2.自然元素&lt;/p&gt;\n&lt;p&gt;3.科技元素&lt;/p&gt;\n&lt;p&gt;合理组合特效元素：&lt;/p&gt;\n&lt;p&gt;​\t每个特效都要有明显的虚实变化&lt;/p&gt;\n&lt;p&gt;​\t通过颜色，不透明度，贴图的软硬，元素的属性等等来区分虚实&lt;/p&gt;\n&lt;p&gt;​\t通常来说范围越大纹理越虚，反之越小纹理相对越实&lt;/p&gt;\n&lt;p&gt;​\t对主次元素进行区分&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;变化(对比)😍&lt;/p&gt;\n&lt;p&gt;1.多和少&lt;/p&gt;\n&lt;p&gt;2.大小&lt;/p&gt;\n&lt;p&gt;3.快慢&lt;/p&gt;\n&lt;p&gt;4.明暗&lt;/p&gt;\n&lt;p&gt;5.色调变化&lt;/p&gt;\n&lt;p&gt;特效要注意起承转结，上一个画面快结束的时候可以适当加一些下一个画面的元素在画面里，在下一个画面中也可以残留一些上个画面的元素。&lt;/p&gt;\n&lt;p&gt;还要注意元素的统一，不要出现奇奇怪怪的元素。&lt;/p&gt;\n&lt;hr&gt;\n&lt;h6 id=\&#34;特效的流程\&#34;&gt;特效的流程&lt;/h6&gt;\n&lt;p&gt;前奏——爆点——余韵&lt;/p&gt;\n&lt;p&gt;所有特效都有开始以及消失，特效不会凭空消失或者凭空出现。&lt;/p&gt;\n&lt;p&gt;结束的时候需要用次要元素表现，比如消散的烟雾，飘散的粒子。&lt;/p&gt;\n&lt;p&gt;特效的能量变化可以通过尺寸，明度，饱和度，色调去表达&lt;/p&gt;\n&lt;p&gt;每个元素或者每一个类型都有其相对的自然物理运动规律。&lt;/p&gt;\n&lt;p&gt;爆点之前可以给个低谷，降低预期，然后再瞬间达到高潮，注意这个节奏并不是固定的，比如可以多重爆点，这个主要看你的设计。&lt;/p&gt;\n&lt;hr&gt;\n&lt;p&gt;&lt;strong&gt;Tips&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;如何让特效精致:贴图选择很重要——纹理的边缘清晰，细节适当，质量适当，贴图需要具有虚实变化，软硬变化。&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;txsjsc&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;特效设计手册&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;特效&#34;,&#34;slug&#34;:&#34;AYjuZ556K&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://lengjinyang.github.io/tag/AYjuZ556K/&#34;}],&#34;date&#34;:&#34;2022-06-18 02:32:05&#34;,&#34;dateFormat&#34;:&#34;2022-06-18&#34;,&#34;feature&#34;:&#34;https://lengjinyang.github.io/post-images/txsjsc.jpg&#34;,&#34;link&#34;:&#34;https://lengjinyang.github.io/post/txsjsc/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;3 min read&#34;,&#34;time&#34;:179000,&#34;words&#34;:883,&#34;minutes&#34;:3},&#34;description&#34;:&#34;\n特效设计手册\n构思：\n1.点：确定一个主题\n2.看：找参考，特效的特点，尽量真实，可以让人一眼分辨出来\n3.想：增加主题的元素\n4.just do it！🥰\n\n特效画面\n视觉特点😊\n1.主要元素：大的，明显的，对比度高，节奏快。\n强对...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E7%89%B9%E6%95%88%E8%AE%BE%E8%AE%A1%E6%89%8B%E5%86%8C\&#34;&gt;特效设计手册&lt;/a&gt;&lt;br&gt;\n*&lt;br&gt;\n*&lt;br&gt;\n*&lt;br&gt;\n* &lt;a href=\&#34;#%E6%9E%84%E6%80%9D\&#34;&gt;构思：&lt;/a&gt;&lt;br&gt;\n* &lt;a href=\&#34;#%E7%89%B9%E6%95%88%E7%94%BB%E9%9D%A2\&#34;&gt;特效画面&lt;/a&gt;&lt;br&gt;\n* &lt;a href=\&#34;#%E7%89%B9%E6%95%88%E7%9A%84%E6%B5%81%E7%A8%8B\&#34;&gt;特效的流程&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;随便写几句，顺便插个图进来&lt;br&gt;\n&lt;img src=\&#34;https://lengjinyang.github.io/post-images/1655411811294.jpg\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;😝😣😉&lt;/p&gt;\n&lt;!-- more --&gt;\n&#34;,&#34;fileName&#34;:&#34;zhu-yao-ce-shi-gridea-de-fa-bu&#34;,&#34;abstract&#34;:&#34;&lt;p&gt;随便写几句，顺便插个图进来&lt;br&gt;\n&lt;img src=\&#34;https://lengjinyang.github.io/post-images/1655411811294.jpg\&#34; alt=\&#34;\&#34; loading=\&#34;lazy\&#34;&gt;😝😣😉&lt;/p&gt;\n&#34;,&#34;title&#34;:&#34;主要测试gridea的发布&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;测试标签&#34;,&#34;slug&#34;:&#34;EHpw5Jflr&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://lengjinyang.github.io/tag/EHpw5Jflr/&#34;}],&#34;date&#34;:&#34;2022-06-17 04:34:46&#34;,&#34;dateFormat&#34;:&#34;2022-06-17&#34;,&#34;feature&#34;:&#34;https://lengjinyang.github.io/post-images/zhu-yao-ce-shi-gridea-de-fa-bu.jpg&#34;,&#34;link&#34;:&#34;https://lengjinyang.github.io/post/zhu-yao-ce-shi-gridea-de-fa-bu/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:2000,&#34;words&#34;:12,&#34;minutes&#34;:1},&#34;description&#34;:&#34;随便写几句，顺便插个图进来\n😝😣😉\n\n...&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;blockquote&gt;\n&lt;p&gt;欢迎来到我的小站呀，很高兴遇见你！🤝&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h2 id=\&#34;关于本站\&#34;&gt;🏠 关于本站&lt;/h2&gt;\n&lt;h2 id=\&#34;博主是谁\&#34;&gt;👨‍💻 博主是谁&lt;/h2&gt;\n&lt;h2 id=\&#34;兴趣爱好\&#34;&gt;⛹ 兴趣爱好&lt;/h2&gt;\n&lt;h2 id=\&#34;联系我呀\&#34;&gt;📬 联系我呀&lt;/h2&gt;\n&#34;,&#34;fileName&#34;:&#34;about&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;关于&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2019-01-25 19:09:48&#34;,&#34;dateFormat&#34;:&#34;2019-01-25&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://lengjinyang.github.io/post/about/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:6000,&#34;words&#34;:31,&#34;minutes&#34;:1},&#34;description&#34;:&#34;\n欢迎来到我的小站呀，很高兴遇见你！🤝\n\n🏠 关于本站\n👨‍💻 博主是谁\n⛹ 兴趣爱好\n📬 联系我呀\n...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99\&#34;&gt;🏠 关于本站&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81\&#34;&gt;👨‍💻 博主是谁&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD\&#34;&gt;⛹ 兴趣爱好&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80\&#34;&gt;📬 联系我呀&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;}]";
+  // var json = escape.substr(1, escape.length - 2);
+  // var datas = json.split(',');
+  // for (let i=0; i < datas.length; i++) {
+  //   let item = datas[i];
+  //   let attrs = item.split('34;:&#34')
+  //   debugger
+  //   console.log(datas[i])
+  // }
+  let escapeMap = new Map();
+  escapeMap.set('&#34;', '"');
+  escapeMap.set('&gt;', '>');
+  escapeMap.set('&#39;', "'");
+  escapeMap.set('&lt;', '<');
+  escapeMap.set('&quot;', '"');
+  escapeMap.set('&amp;', '&');
+</script> -->
+
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;"></canvas>
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script>
+<script type="text/javascript" src="/media/js/mouse/fireworks.js"></script>
+
+
+<script src=" /media/js/cool.js"></script>
+
+</html>

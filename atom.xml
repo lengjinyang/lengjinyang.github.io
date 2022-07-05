@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lengjinyang.github.io</id>
+    <title>萌萌哒の🥰の小窝</title>
+    <updated>2022-07-05T06:42:01.095Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://lengjinyang.github.io"/>
+    <link rel="self" href="https://lengjinyang.github.io/atom.xml"/>
+    <subtitle>卧槽 撅了</subtitle>
+    <logo>https://lengjinyang.github.io/images/avatar.png</logo>
+    <icon>https://lengjinyang.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 萌萌哒の🥰の小窝</rights>
+    <entry>
+        <title type="html"><![CDATA[古代山谷]]></title>
+        <id>https://lengjinyang.github.io/post/gu-dai-shan-gu/</id>
+        <link href="https://lengjinyang.github.io/post/gu-dai-shan-gu/">
+        </link>
+        <updated>2022-07-02T12:27:02.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>TODO 地编学习任务
+<ul>
+<li>文档链接
+<ul>
+<li>https://docs.qq.com/doc/DTU5VTlF3bWR2ZUZP?_t=1656732083283&amp;u=c94d6f1931bc4b57bfd83cfeddebe618</li>
+</ul>
+</li>
+<li>文章阅读
+<ul>
+<li>学习要求：阅读文章，并思考作者关于故事与场景之间的转化联系，思考场景的氛围，白盒到最终效果的思路。</li>
+<li>原文链接：https://gamesartist.co.uk/golden-valley/</li>
+<li><strong>笔记正文：</strong>
+<ul>
+<li>
+<p>首先确定一个目标</p>
+<ul>
+<li>
+<ol>
+<li>世界建筑演示</li>
+<li>光照与构图</li>
+<li>故事、关卡设计、游戏玩法</li>
+<li>实现 UE5 新功能、Lumen、Nanite 等</li>
+<li>捕获完整的进度和过程</li>
+<li>至少 30 FPS 游戏捕获</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p>制作内容和最后成果</p>
+<ul>
+<li>
+<ol>
+<li>根据需要经常使用免费的 Epic 和 Quixel 资产。</li>
+<li>2-3 个英雄资产。非摄影测量、高多边形、纹理、纳米网格。</li>
+<li>一个定位镜头，一张静止的 4k 图像。</li>
+<li>两个建立序列，每个序列 5-10 秒。</li>
+<li>然后在路径上进行 30 秒的“游戏”步行序列。</li>
+<li>如果时间允许，从凉爽的角度很少额外的镜头。</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p>要确定自己是要练习的是创建资产还是搭建场景</p>
+<ul>
+<li>如果要练习创建资产，就尽量所有资产都自己制作</li>
+<li>如果要练习搭建场景，那么就尽可能多的使用EPIC和quixel资源</li>
+</ul>
+</li>
+<li>
+<p>故事感过程的思考</p>
+<ul>
+<li>从写一个故事，作为创建场景的开始</li>
+<li>下面是原文作者写的：
+<ul>
+<li>
+<p>“黄昏时分，她终于到了高门。曾经是宏伟城堡的入口，这座破碎的拱门现在经常无人看守。夕阳西下，落在了黄金谷的西山后面。平静但复仇心切，就像下面的河流一样，她在曾经由她的可汗巴巴统治的小镇中寻找盟友。她必须进入Creed's Inn，才能见到那个神秘的老人。在他的帮助下，她将在午夜过河，从黑暗的一面爬上城堡。她的计划就这样结束了。”</p>
+</li>
+<li>
+<p>这几句台词实际上就是我在这个场景中捕捉到的故事中的确切时刻。这是其余的。</p>
+</li>
+<li>
+<p>“他们被称为‘古人’。沿着帕米尔帝国的南部边境建造这些宏伟城堡的人们。他们是石匠大师，在这些山上随处可见的石头。然后有一天晚上，正如传说中的那样，大地震动并摧毁了整个城堡链以及与他们一起建造者的骄傲。河流改变了它们的路线，一些小镇完全消失在地球的腹地。大灾变后600年，有11户农家的氏族在这些山中避难。他们从甘古尔人逃出，在罕萨河沿岸的金色山谷中找到了慰藉和避难所。他们在严酷的漫长冬季中幸存下来，并用他们在山上找到的任何东西建造了他们简陋的住宅。漫长的冬天、崎岖的地形和有限的通道对他们有利。他们曾经在罕萨三角洲的肥沃土地上耕种。但在这里，只要有一块地，他们就只能种几棵杏树和杏树。他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 但在这里，只要有一块地，他们就只能种几棵杏树和杏树。他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 但在这里，只要有一块地，他们就只能种几棵杏树和杏树。他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 他们中的大多数人在山上猎杀野兔和鹰。随着时间的推移，他们成为了优秀的弓箭手。马、鹰和牦牛是他们的伙伴。雪豹和狼是他们的敌人。将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……” 将他们带到这个地方的阿斯特拉罕成为他们的第一任酋长，他是一个多么伟大的酋长。他照顾好他的人民，直到他中毒的那一天。他唯一的儿子穆萨带着他的妻子和刚出生的女儿拉尼娅，当晚就失踪了。阿斯特拉罕的兄弟巴兹汗成为酋长，悬赏穆萨的头颅。没有人喜欢巴兹汗，但他是所有能人中最强壮的。穆萨再也没有出现过。二十年后……”</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>参考</p>
+<ul>
+<li>从故事中提取出视觉特点，想象在这个世界中画面的细节</li>
+<li>然后在互联网上寻找相关的参考</li>
+<li>尽可能少的参考资料，避免产生混乱</li>
+<li>最好寻找真实图像作为参考，不建议使用CG或者加工过的图像作为参考</li>
+<li>概念图和CG图像可以作为灵感</li>
+</ul>
+</li>
+<li>
+<p>Blockout</p>
+<ul>
+<li>首先创建一个摄像机并锁定他，确保不会意外移动</li>
+<li>添加一个定向光作为主光，这是Blockout前的简单设置</li>
+<li><img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022044504.png" alt="" loading="lazy"></li>
+<li>在创建关卡的过程中，不断重复地修改构图、灯光、氛围是很正常的<br>
+尽可能在blockout阶段花费事件，因为可以让你快速修改和迭代</li>
+<li>https://vimeo.com/716036874?embedded=true&amp;source=vimeo_logo&amp;owner=4771183</li>
+</ul>
+</li>
+<li>
+<p>内容构成</p>
+<ul>
+<li>在blockout阶段就确定构图，区分开前中远景，对于宏大场景来说，这会增加场景深度和呼吸感</li>
+<li><img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022046664.png" alt="" loading="lazy"></li>
+<li>作者为了保持画面中笔直的垂直线，没有让相机太低或者太高产生透视效果，让垂直线变得有透视感，而保持画面中垂直线会增加建筑的宏伟感和规模感</li>
+<li><img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022047160.png" alt="" loading="lazy"></li>
+<li>由于要保证相机的位置让画面内竖线的垂直，所以地面的高度会比较高，这就导致了下一个决定</li>
+<li>一个是玩家走过的道路，一个是地面的河流</li>
+<li>在确定上面的内容后，我们得知需要使用地形资源和水插件来创建河流，但是作者在这里提到了避免在UE5中使用景观，不知道为什么</li>
+</ul>
+</li>
+<li>
+<p>自我批评</p>
+<ul>
+<li>在这个阶段，截一张图，然后分析这张画面的优缺点，再通过画笔或者文字提出修改或者后续想法，但是即使场景不断深化，你也可以看到blockout阶段对最终构图的影响</li>
+<li><img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022047632.png" alt="" loading="lazy"></li>
+</ul>
+</li>
+<li>
+<p><strong>场景搭建</strong></p>
+<ul>
+<li>没有使用复杂的地形材质，只用了一个简单的平铺材质</li>
+<li>使用地形actor作为地面，用megascans的沙质材料</li>
+<li><img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022048396.png" alt="" loading="lazy"></li>
+<li><img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022048458.png" alt="" loading="lazy"></li>
+<li>最重要的一步，使用megascans的资产，装饰河流 这个步骤将山脉和地面相连接，稍微调整一下材质的颜色，让他能够融入画面</li>
+<li><img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022049502.png" alt="" loading="lazy"></li>
+<li><img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022051936.png" alt="" loading="lazy">虽然整个场景不断变化，但是整体的构思是没变的，就是我们早期定下的基调</li>
+</ul>
+</li>
+<li>
+<p>道路</p>
+<ul>
+<li>用网格样条线创建道路，作者使用了平铺纹理，单单这样并不会好看 <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022052993.png" alt="" loading="lazy"></li>
+<li>路旁边的地面使用相同的办法，不必使用复杂的地形材质来将纹理和资产混合在一起，要做的仅仅是调整资产的abedo颜色</li>
+</ul>
+</li>
+<li>
+<p>鸟</p>
+<ul>
+<li>由于这个场景中没有人类，所以需要一些东西来创造一种宏大感，添加鸟是一种很好的办法</li>
+<li>通过quixel的中世纪村庄环境的乌鸦骨骼网络来实现，修改模型 <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022052065.png" alt="" loading="lazy"></li>
+<li>制作一个蓝图，自定义样条线用作路径，让物体可以沿着样条线循环移动到另外一个蓝图 <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022053940.png" alt="" loading="lazy"></li>
+<li>经过一番折腾，就可以得到一个完全3D，具有动态阴影的鸟群，对于正式项目来说，鸟的阴影可能不是很必要，但是对于个人作品来说，这些小细节很有趣</li>
+</ul>
+</li>
+<li>
+<p>山脉</p>
+<ul>
+<li>山是环境的关键元素，尽管world creator、grea等地形软件创建出来的地形很不错，但是由高度图产生的地形是不会产生具有凹凸和形状突出的山</li>
+<li>使用houdini可以转换为VDB并使用侵蚀效果，已经有很多作品可以看到，但是本场景需要高真实度，所以需要大量细节，并且为了做出多种变化，每个资产都是独一无二的</li>
+<li>用高度图制作山脉的模型，然后用megascans的岩石给他装饰，这样有很多优点
+<ul>
+<li>在引擎中创建剪影，能动态查看效果和低成本的修改</li>
+<li>不在引擎外雕刻和烘焙，节省时间</li>
+<li>可以重复使用相同的石头数十次，这让他们看起来是同一个生物群系的一部分</li>
+<li>可以创建无限数量的独特轮廓和山脉变化</li>
+</ul>
+</li>
+<li>在高度图生成的基础山脉上创建一种自定义材质，让他更好的融合岩石 <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022053510.png" alt="" loading="lazy"></li>
+<li>尽管有很多更好的办法来创建逼真的山脉，可以减少四边形过度绘制，但是由于时间限制，我们使用的技术就非常适合</li>
+<li>远处山脉是简单的网格山脉，添加一些细节法线贴图，让他们在场景中提供正确的比例</li>
+</ul>
+</li>
+<li>
+<p><strong>核心资产</strong></p>
+<ul>
+<li>很多人在处理核心资产时会不知所措，首先要明确定义需要重点展示的区域，这将大大降低你的工作量</li>
+<li>作者使用ZB制作这个资产<br>
+然后使用3Dmax修复问题，降低面数<br>
+并且分好材质ID ，拆分好UV <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022054508.png" alt="" loading="lazy"></li>
+<li>导入到引擎中，准备好两种材质，一种是表面材质，另外一种是破损处材质，匹配好纹理密度，就能很好的融合在一起</li>
+<li>添加贴花，在网格角落或者破损处添加苔藓，最后在一些可以生长草的地方让他长出几根草来，这样看起来就会更加真实而有趣一些 <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022054323.png" alt="" loading="lazy"> <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022054572.png" alt="" loading="lazy"> <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022054307.png" alt="" loading="lazy"></li>
+<li>主体资产已经制作完毕，可以开始制作次要资产了，使用相同的制作手法设计制作，在这些资产上，不必保持特定的纹理比例，因为你不会离他们很近<br>
+唯一比较重要的是轮廓剪影和可辨识度，只要它从远处就能分辨出来，就可以了 <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022056018.png" alt="" loading="lazy"> <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022056033.png" alt="" loading="lazy"> <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207022056703.png" alt="" loading="lazy"></li>
+<li>尽管这些资产近处看起来不是很棒，但是创建个人世界搭建项目，这种方法很关键，尤其在大规模场景中</li>
+</ul>
+</li>
+<li>
+<p>雾和光束</p>
+<ul>
+<li>雾气在这种场景中起到非常重要的作用，它与光一起将一切关联在了一起。不要过度添加雾，在这种环境中，河流是雾气的来源</li>
+<li>需要注意的是，在这个场景中，雾气只放在光线强的地方，使用一点点的指数级高度雾和许多雾片 <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030001647.png" alt="" loading="lazy"> <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030001549.png" alt="" loading="lazy"></li>
+<li>雾片材质 <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030002592.png" alt="" loading="lazy"></li>
+<li>光束材质 <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030002139.png" alt="" loading="lazy"></li>
+</ul>
+</li>
+<li>
+<p>天空</p>
+<ul>
+<li>使用UE5演示案例古代峡谷中的HDR天空</li>
+</ul>
+</li>
+<li>
+<p>灯光</p>
+<ul>
+<li>
+<p>有很多不同的照明方式，这取决于我们想达到的效果，这里想达到的效果是宏伟的史诗感。非常戏剧化和近乎超现实的氛围，能让人想起指环王、战神</p>
+</li>
+<li>
+<p>关于游戏性的小提示</p>
+<ul>
+<li>玩家进入这片区域的时候，起点应该是比较暗的，然后是第一站，玩家必须获得武器、马或者其他东西，也许是对话、过场动画等，所以有一束光引导他走向重点，这也是可以看到整个山谷的位置</li>
+<li>玩家将会享受这一刻，并沉浸进去。沿着这条路，他会经过一个村庄，然后是一个哨所，一场小型战斗。。。经过过场动画，爬上城墙，经过暗门，到达城堡并战胜BOSS，要注意，灯光要引导这一个进程 <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030003850.png" alt="" loading="lazy"></li>
+</ul>
+</li>
+<li>
+<p>环境光</p>
+<ul>
+<li>使用了实时捕获的天光，一点点微弱的定向光，增强光穿过云层的一点蓝色影响</li>
+<li>定向光的接触阴影修改为比较柔和，定向光还为场景中所有物体都增加了一个稍微亮一些的亮面，这增加了物体的可辨识度和可读性</li>
+<li>启用了lumen</li>
+</ul>
+</li>
+<li>
+<p>氛围灯、轮廓灯</p>
+<ul>
+<li>要注意我们不是在重建现实，我们只是让他可信</li>
+<li>在这个场景中主光来自多个聚光灯，比较分散地模仿太阳的方向，但不是100%准确地，其中一些灯在山顶和树木处提供轮廓光。这些聚光灯大多数都没有阴影，这对性能很重要，阴影在相机可视范围外不显示</li>
+<li>尽管lumen实现了很多效果，但是仍然需要伪造一些光照 <img src="http://cdn.jsdelivr.net/gh/lengjinyang/Image@main/img/202207030003772.png" alt="" loading="lazy"></li>
+<li>大纲管理
+<ul>
+<li>将不同的灯光重命名，可以通过添加颜色或者文件夹进一步分类，让他更好更快的被查找到</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>渲染</p>
+<ul>
+<li><mark>从一开始就确定好宽高比，否则你无法确定构图</mark></li>
+<li>作者一开始就确定了1：2的比例，以24FPS的帧率渲染序列，并且开启了一丢丢（0.5）运动模糊，这就会产生我们熟悉的电影感</li>
+<li>后期处理再添加一点晕影。在这个场景中，并没有后期调色和LUT</li>
+<li>MRQ中添加了抗锯齿，其他都是默认设置</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><mark>提示和关键点</mark></p>
+<ul>
+<li>有规划和整体方法是非常重要的，通过列出明确目标和明确范围做到这一点，把这些写出来有助于坚持下去，这对大型个人项目是必不可少的</li>
+<li>将故事融入场景、构图、灯光和氛围</li>
+<li>培养搭建关卡的思维并使用它，直到成为一种习惯</li>
+<li>根据一个镜头或者几个镜头优化工作量，抵制一切都要做到完美的诱惑</li>
+<li>在深入制作之前，尽可能在blockout阶段停留</li>
+<li>截图出来查看，多次迭代改进</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[特效设计手册]]></title>
+        <id>https://lengjinyang.github.io/post/txsjsc/</id>
+        <link href="https://lengjinyang.github.io/post/txsjsc/">
+        </link>
+        <updated>2022-06-17T18:32:05.000Z</updated>
+        <content type="html"><![CDATA[<!-- more -->
+<h1 id="特效设计手册">特效设计手册</h1>
+<h5 id="构思">构思：</h5>
+<p>1.点：确定一个主题</p>
+<p>2.看：找参考，特效的特点，尽量真实，可以让人一眼分辨出来</p>
+<p>3.想：增加主题的元素</p>
+<p>4.just do it！🥰</p>
+<hr>
+<h5 id="特效画面">特效画面</h5>
+<p>视觉特点😊</p>
+<p>1.主要元素：大的，明显的，对比度高，节奏快。</p>
+<p>强对比度和饱和度，强透明度，清晰的轮廓，比较复杂的造型，激烈的动态</p>
+<p>​	表达了技能目的，视觉焦点，需要很强的主题性质</p>
+<p>2.环境元素(次要元素)：相对不那么明显，低对比度，相对节奏慢</p>
+<p>比较简单的造型，模糊的轮廓，比较小的体积，低透明度，比较弱的动态变化(反正就是和主要元素对着来🤣)</p>
+<p>​	加强主体的节奏，丰富整个技能的元素 动态 主题以及色彩</p>
+<hr>
+<p>特效颜色😶‍🌫️</p>
+<p>明度太高或者太低，对比度都会提升，特效的主体颜色最好是对比度较高的颜色。当我们感觉画面比较灰的时候，考虑一下是不是色彩都在低对比度区间。当感觉特效太亮或者太曝的情况下，不用一味去降低特效的明度，可以考虑加入一些低明度的颜色保持整个颜色的对比度平衡。不同属性的元素，对比度取值不同，比如有些元素是需要低对比度，比如风，烟雾。</p>
+<p>取色的时候主体颜色最好不要超过三个颜色取值。</p>
+<hr>
+<p>特效图形设计😶‍🌫️</p>
+<p>点设计(视觉焦点)：注意点要有大小，疏密，透明度的区分，越大的、越密的地方、透明度越高的越能占据视觉焦点</p>
+<p>线设计(引导力的方向，营造体积感)</p>
+<p>面设计(概括大的造型)</p>
+<hr>
+<p>特效元素❤️</p>
+<p>制作过程中先去制作主题元素</p>
+<p>1.魔法元素</p>
+<p>2.自然元素</p>
+<p>3.科技元素</p>
+<p>合理组合特效元素：</p>
+<p>​	每个特效都要有明显的虚实变化</p>
+<p>​	通过颜色，不透明度，贴图的软硬，元素的属性等等来区分虚实</p>
+<p>​	通常来说范围越大纹理越虚，反之越小纹理相对越实</p>
+<p>​	对主次元素进行区分</p>
+<hr>
+<p>变化(对比)😍</p>
+<p>1.多和少</p>
+<p>2.大小</p>
+<p>3.快慢</p>
+<p>4.明暗</p>
+<p>5.色调变化</p>
+<p>特效要注意起承转结，上一个画面快结束的时候可以适当加一些下一个画面的元素在画面里，在下一个画面中也可以残留一些上个画面的元素。</p>
+<p>还要注意元素的统一，不要出现奇奇怪怪的元素。</p>
+<hr>
+<h6 id="特效的流程">特效的流程</h6>
+<p>前奏——爆点——余韵</p>
+<p>所有特效都有开始以及消失，特效不会凭空消失或者凭空出现。</p>
+<p>结束的时候需要用次要元素表现，比如消散的烟雾，飘散的粒子。</p>
+<p>特效的能量变化可以通过尺寸，明度，饱和度，色调去表达</p>
+<p>每个元素或者每一个类型都有其相对的自然物理运动规律。</p>
+<p>爆点之前可以给个低谷，降低预期，然后再瞬间达到高潮，注意这个节奏并不是固定的，比如可以多重爆点，这个主要看你的设计。</p>
+<hr>
+<p><strong>Tips</strong></p>
+<p>如何让特效精致:贴图选择很重要——纹理的边缘清晰，细节适当，质量适当，贴图需要具有虚实变化，软硬变化。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[主要测试gridea的发布]]></title>
+        <id>https://lengjinyang.github.io/post/zhu-yao-ce-shi-gridea-de-fa-bu/</id>
+        <link href="https://lengjinyang.github.io/post/zhu-yao-ce-shi-gridea-de-fa-bu/">
+        </link>
+        <updated>2022-06-16T20:34:46.000Z</updated>
+        <summary type="html"><![CDATA[<p>随便写几句，顺便插个图进来<br>
+<img src="https://lengjinyang.github.io/post-images/1655411811294.jpg" alt="" loading="lazy">😝😣😉</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>随便写几句，顺便插个图进来<br>
+<img src="https://lengjinyang.github.io/post-images/1655411811294.jpg" alt="" loading="lazy">😝😣😉</p>
+<!-- more -->
+]]></content>
+    </entry>
+</feed>
